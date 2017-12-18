@@ -43,7 +43,7 @@ int main(void) {
 			if(c = 'A') {
 				uart_send(0x01);
 			}
-			for(i=0; i<40000; i++);		
+			for(i=0; i<40000; i++); // delay		
 		}
 	}
 }
